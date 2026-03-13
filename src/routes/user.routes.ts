@@ -5,7 +5,7 @@ import {
   specificUser,
 } from "../controllers/user.controller";
 import { validate } from "../middlewares/valitadate";
-import { createUserSchema } from "../schema/user.schema";
+import { createUserSchema } from "../schema/auth.schema";
 
 const router = Router();
 
